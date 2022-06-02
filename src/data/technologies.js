@@ -2,7 +2,7 @@
 export const technologies = [
   {
     title: "React",
-    started_at: "2021-08-01",
+    started_at: "2021-05-01",
     image: new URL("../assets/reactlogo.png", import.meta.url),
     key: 1 
   },

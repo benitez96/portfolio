@@ -1,15 +1,11 @@
-import {memo} from "react"
-import {useSection} from "../../hooks/useSection"
-
 import { projects } from "../../data/projects"
-import {ProjectCard} from "./ProjectCard"
+import { ProjectCard } from "./ProjectCard"
 
-export const ProjectScreen = memo(({ setSection }) => {
+export const ProjectScreen = () => {
 
-  const { ref } = useSection('projects', setSection)
 
   return (
-    <section className="flex flex-col bg-black" ref={ref} id='projects'>
+    <section className="flex flex-col bg-black text-white" id='projects'>
       <h3 className="my-4 ml-8 text-2xl font-bold bg-black">Projects</h3>
       <div className="flex flex-wrap justify-center w-auto py-16 bg-black minH-screen align-center">
         {
@@ -21,4 +17,4 @@ export const ProjectScreen = memo(({ setSection }) => {
       </div> 
     </section>
   )
-})
+}

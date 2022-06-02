@@ -10,7 +10,7 @@ export const TechnologyCard = memo( ({ title, image, date, children }) => {
   return (
 
     <>
-      <article className="w-64 p-3 px-5 m-3 h-80 rounded-md bg-neutral">
+      <article className="w-64 p-3 px-5 m-3 h-80 rounded-md bg-zinc-900">
         <header>
           <img className="object-cover h-full" src={ image } alt={ title }/>
         </header>

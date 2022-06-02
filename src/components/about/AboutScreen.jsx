@@ -1,16 +1,14 @@
-import React, {memo} from 'react';
-import {useSection} from '../../hooks/useSection';
+import React from 'react';
 import {EmailBox} from './EmailBox';
 import {
   AiFillLinkedin,
   AiFillGithub
 } from 'react-icons/ai';
 
-export const AboutScreen = memo(({ setSection }) => {
+export const AboutScreen = () => {
 
-  const { ref } = useSection('about', setSection)
   return (
-    <section ref={ ref } className="w-auto p-4 m-4 mb-1" id="about">
+    <section className="w-auto p-8 pb-1 text-white bg-zinc-900" id="about">
       <h3 className="mb-4 text-2xl font-bold">Contact</h3>
       <EmailBox />
       <section className="flex items-center justify-center p-8">
@@ -26,5 +24,5 @@ export const AboutScreen = memo(({ setSection }) => {
       </section>
     </section>
   );
-})
+}
 
