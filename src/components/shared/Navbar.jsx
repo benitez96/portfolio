@@ -30,7 +30,7 @@ export const NavbarComponent = () => {
               Daniel Benitez
             </a>
         </span>
-        <nav className={`flex-wrap items-start sm:justify-center ${ menuOpen ? '' : 'hidden' } sm:block py-1 sm:pl-4 ml-4 text-white sm:border-l ${bg ? 'border-gray-400' :'border-gray-700'} xs:flex-col flex transition-all duration-500`}>
+        <nav className={`flex-wrap items-start sm:justify-center ${ menuOpen ? 'text-white ' : 'hidden' } sm:block py-1 sm:pl-4 ml-4 sm:border-l ${bg ? 'border-gray-400' :'border-gray-700'} xs:flex-col flex `}>
           <a href="#" className="mr-5 hover:text-white w-full sm:w-auto" >
             Home
           </a> 
