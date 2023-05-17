@@ -21,7 +21,7 @@ export const ExperienceScreen = () => {
                   <div className="flex-grow pl-4">
                     <h2 className="mb-1 font-bold tracking-wider text-white title-font text-md">Software Developer</h2>
                     <p className="text-xs">IncluIT (AGO 2021 - ACT)</p>
-                    <p className="leading-relaxed">Mainly programming in C# .NET and Angular.</p>
+                    <p className="leading-relaxed">Mainly programming in Python and React.</p>
                   </div>
                 </div>
                 <div className="relative flex">
