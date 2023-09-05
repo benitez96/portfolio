@@ -14,5 +14,13 @@ export const projects =[
     description: 'A clone of Wordle built with React',
     github:'https://github.com/benitez96/fakedle',
     url:'https://benitez96.github.io/fakedle',
+  },
+  {
+    id: 3,
+    title: 'Milleros',
+    image: new URL("../assets/milleros.png", import.meta.url),
+    description: 'A browser for cheap flights built with React & Django',
+    github:'https://github.com/benitez96/trackmiles',
+    url:'https://milleros.com.ar',
   }
 ]
